@@ -21,16 +21,16 @@ export default {
     return {
       links: [
         {
-          url: '/html-css',
-          text: 'Getting Started',
-        },
-        {
           url: '/vuejs',
-          text: 'Vue.js',
+          text: 'top',
         },
         {
-          url: '/nuxtjs',
-          text: 'Nuxt.js',
+          url: '/vuejs/section1',
+          text: 'Section1',
+        },
+        {
+          url: '/vuejs/section2',
+          text: 'section2',
         },
       ],
     }
@@ -45,6 +45,8 @@ export default {
 <style lang="scss" scoped>
   .page {
     .container {
+      display: flex;
+      justify-content: space-between;
       width: 913px;
       margin: auto;
       // margin-top: 38px;

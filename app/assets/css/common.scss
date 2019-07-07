@@ -1,0 +1,64 @@
+////////////////////////////////////////
+//
+// Fonts
+//
+////////////////////////////////////////
+h1, h2, h3, h4, h5, h6, p, a, label, input, button {
+  font-family: 'Righteous', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, '.SFNSDisplay-Regular', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Helvetica, '游ゴシック  Medium', meiryo, sans-serif;
+  line-height: 1.6em;
+  color: #333;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+// h3 {
+//   font-size: 16px;
+// }
+
+p {
+  font-size: 14px;
+  font-family: 'Noto Sans JP';
+}
+
+a {
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+article {
+  h1, h2, h3, h4, h5, h6, p, a, label, input, button {
+  }
+
+  h1 {
+  }
+
+  h2 {
+  }
+
+  p {
+    span {
+      &.red {
+        color: #f00;
+      }
+      &.green {
+        color: #0f0;
+      }
+      &.blue {
+        color: #00f;
+      }
+      &.underline {
+        text-decoration: underline;
+      }
+    }
+  }
+
+}
+

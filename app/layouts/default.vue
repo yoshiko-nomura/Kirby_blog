@@ -1,16 +1,16 @@
 <template>
   <div>
-    <Svgs />
+    <HeaderDefault />
     <nuxt />
   </div>
 </template>
 
 <script>
-import Svgs from '@/components/Svgs.vue'
+import HeaderDefault from '@/components/templates/header/HeaderDefault.vue'
 
 export default {
   components: {
-    Svgs,
+    HeaderDefault,
   },
 }
 </script>
