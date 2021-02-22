@@ -15,7 +15,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.5.4",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.8.1",
+    "nuxt": "^2.15.1",
     "nuxt-dayjs-module": "^0.1.2",
     "vue-types": "^1.5.3"
   },
